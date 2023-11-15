@@ -1,99 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <title>The 15-Minute City</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
-    <link
-      href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css"rel="stylesheet"
-    />
-    <link
-      href="https://api.mapbox.com/mapbox-assembly/v1.3.0/assembly.min.css"rel="stylesheet"
-    />
-    <script src="https://api.mapbox.com/mapbox-assembly/v1.3.0/assembly.js"></script>
-    <style>
-        /* Font */
-        @font-face {
-          font-family: 'iranyekan';
-          src: url(fonts/iranyekanwebregular.eot) format("eot");
-          src: url(fonts/iranyekanwebregular.ttf) format("ttf"),
-              url(fonts/iranyekanwebregular.woff) format("woff"),
-              url(fonts/iranyekanwebregular.woff2) format("woff2");
-        }
-    
-        a.mapboxgl-ctrl-logo {
-          display: none;
-        }
-    
-        /* Table container */
-        h3 {
-          font-family: 'iranyekan', sans-serif;
-          text-align: left;
-          line-height: 35px;
-        }
-    
-        .txt-m {
-          font-size: 13px;
-          line-height: 19px;
-        }
-    
-        h4 {
-          font-family: 'iranyekan', sans-serif;
-          text-align: left;
-          display: flex;
-          align-items: center;
-          font-size: 15px;
-        }
-    
-        .toggle {
-          font-family: 'iranyekan', sans-serif;
-          display: inline-flex;
-          margin-right: 5px;
-        }
-    
-        .toggle-container .icon {
-          display: inline-flex;
-          margin-right: 5px;
-          font-size: 20px;
-        }
-    
-        p {
-          font-family: 'iranyekan', sans-serif;
-          text-align: left;
-          font-size: 9pt;
-          margin-bottom: 10px;
-        }
-    
-        .sitemvhb {
-          font-family: 'iranyekan', sans-serif;
-          text-align: center;
-          font-size: 15px;
-          font-weight: 100;
-          color: rgb(81, 81, 81);
-        }
-    
-        body {
-          margin: 0;
-          padding: 0;
-        }
-    
-        #map {
-          position: absolute;
-          top: 0;
-          bottom: 0;
-          width: 100%;
-        }
-    
-        .round {
-          border-radius: 15px!important;
-        }
-    
-        input:checked+.toggle {
-          background: #05845a;
-          color: #fff;
-        }
-      </style>
+    <head>
+      <meta charset="utf-8" />
+      <title>Quick Mobility Modes</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <script src="https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.js"></script>
+      <link
+        href="https://api.tiles.mapbox.com/mapbox-gl-js/v2.14.1/mapbox-gl.css"rel="stylesheet"
+      />
+      <link
+        href="https://api.mapbox.com/mapbox-assembly/v1.3.0/assembly.min.css"rel="stylesheet"
+      />
+      <script src="https://api.mapbox.com/mapbox-assembly/v1.3.0/assembly.js"></script>
+      <link rel="stylesheet" href="style.css">
     </head>
     
     <body>

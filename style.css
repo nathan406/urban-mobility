@@ -1,0 +1,81 @@
+
+/* Font */
+@font-face {
+  font-family: 'iranyekan';
+  src: url(fonts/iranyekanwebregular.eot) format("eot");
+  src: url(fonts/iranyekanwebregular.ttf) format("ttf"),
+      url(fonts/iranyekanwebregular.woff) format("woff"),
+      url(fonts/iranyekanwebregular.woff2) format("woff2");
+}
+
+a.mapboxgl-ctrl-logo {
+  display: none;
+}
+
+/* Table container */
+h3 {
+  font-family: 'iranyekan', sans-serif;
+  text-align: left;
+  line-height: 35px;
+}
+
+.txt-m {
+  font-size: 13px;
+  line-height: 19px;
+}
+
+h4 {
+  font-family: 'iranyekan', sans-serif;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+.toggle {
+  font-family: 'iranyekan', sans-serif;
+  display: inline-flex;
+  margin-right: 5px;
+}
+
+.toggle-container .icon {
+  display: inline-flex;
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+p {
+  font-family: 'iranyekan', sans-serif;
+  text-align: left;
+  font-size: 9pt;
+  margin-bottom: 10px;
+}
+
+.sitemvhb {
+  font-family: 'iranyekan', sans-serif;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 100;
+  color: rgb(81, 81, 81);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.round {
+  border-radius: 15px!important;
+}
+
+input:checked+.toggle {
+  background: #05845a;
+  color: #fff;
+}
